@@ -16,7 +16,7 @@ public interface WebConfig extends Config {
     String remoteUrl();
 
     @Key("is.remote")
-    Boolean isRemote();
+    boolean isRemote();
 
     @Key("browser.version")
     String browserVersion();

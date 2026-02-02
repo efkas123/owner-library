@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class WebTest {
+public class WebTest extends WebTestBase {
 
     @Test
     public void BSTest1(){
